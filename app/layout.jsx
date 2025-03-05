@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google';
 import './globals.css';
+import Header from '@/components/layout/header';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -17,11 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
-      <body
-        className={`flex flex-col items-center justify-center ${montserrat.variable} min-h-screen`}
-      >
+      <body className={montserrat.variable}>
+        <Header />
         <main className="w-md">{children}</main>
-        <footer className="w-md text-xs text-white/80 text-center mt-4">&copy; 2025 Prisko Jr Mod</footer>
       </body>
     </html>
   );

@@ -5,6 +5,10 @@
   --foreground: #F6F6F4;
 }
 
+@theme {
+  --color-white-n: #E7E7E7;
+}
+
 @layer base {
   body {
     color: var(--foreground);
@@ -15,5 +19,12 @@
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
+  }
+}
+
+@layer components {
+  .icon {
+    display: inline-block;
+    vertical-align: -.125em;
   }
 }
