@@ -1,6 +1,6 @@
-import CardHomeOther from '@/components/home/card-home-other';
 import CardHomePin from '@/components/home/card-home-pin';
 import CardHomeSlide from '@/components/home/card-home-slide';
+import CardTestimonial from '@/components/home/card-testimonial';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <span className="hr-1 absolute top-2 right-3/5 inline-block z-5" />
         <span className="hr-2 absolute top-20 right-3 inline-block z-5" />
 
-        <section className="w-full lg:max-w-6xl mx-auto px-3">
+        <div className="w-full lg:max-w-6xl mx-auto px-3">
           <h1 className="text-5xl font-extrabold text-white-na text-center z-88 relative">Make Your Dream Come True</h1>
           <div className="flex text-[10px] justify-center text-white-b mt-6 gap-14 [&_p]:mt-1 opacity-90">
             <div>
@@ -40,7 +40,7 @@ export default function Home() {
               <p><b>Lua Module</b> Scripting</p>
             </div>
           </div>
-        </section>
+        </div>
 
         <span className="hr-3 absolute max-[769px]:top-73 top-63 left-2 inline-block z-5" />
         <span className="hr-4 absolute max-[769px]:top-73 top-63 right-3/5 inline-block z-5" />
@@ -59,19 +59,32 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="bg-black-s1 relative z-30 mt-18 mb-15 py-7">
+      <section className="bg-black-s1 relative z-30 mt-18 py-10">
         <div className="w-full lg:max-w-6xl mx-auto px-3">
           <div className="flex justify-between mb-7">
             <h3 className="font-semibold text-xl">Products</h3>
             <a href="" className="font-medium text-green-500">See All</a>
           </div>
 
-          <div className="flex gap-3">
-            <CardHomeSlide />
+          <CardHomeSlide />
+        </div>
+      </section>
+      <section className="testimony relative z-29 -mt-1 -ms-1 py-20">
+        <div className="w-full lg:max-w-4xl mx-auto px-3">
+          <h1 className="text-center text-xl text-green-500 font-semibold">Testimonials</h1>
+          <h2 className="text-center font-bold text-[40px]">What our user Say</h2>
+
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10 place-content-center">
+            <CardTestimonial />
+            <CardTestimonial />
+            <CardTestimonial classes="md:col-start-2" />
+            <CardTestimonial classes="md:col-start-3" />
           </div>
         </div>
       </section>
+      <section>
 
+      </section>
     </>
   );
 }
