@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <body className={montserrat.variable}>
         <Header />
-        <main className="w-md">{children}</main>
+        <main className="overflow-hidden min-h-screen">{children}</main>
       </body>
     </html>
   );

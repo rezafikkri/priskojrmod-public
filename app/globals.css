@@ -7,6 +7,15 @@
 
 @theme {
   --color-white-n: #E7E7E7;
+  --color-white-na: #F6F6F4;
+  --color-white-b: #E1E1E1;
+  --color-white-c: #DADADA;
+  --color-white-a: #F2F4EC;
+  --color-stroke: #2D2E2D;
+  --color-black-m: #0E0F0E;
+  --color-black-s: #1E1E1E;
+  --color-black-s1: #171716;
+  --color-l-black: #434442;
 }
 
 @layer base {
@@ -19,6 +28,27 @@
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
+  }
+
+  .hr-1 {
+    background-image: url('/borders/1.svg');
+    width: 2px;
+    height: 69px;
+  }
+  .hr-2 {
+    background-image: url('/borders/2.svg');
+    height: 2px;
+    width: 856px;
+  }
+  .hr-3 {
+    background-image: url('/borders/3.svg');
+    height: 2px;
+    width: 852px;
+  }
+  .hr-4 {
+    background-image: url('/borders/4.svg');
+    height: 540px;
+    width: 2px;
   }
 }
 
