@@ -32,6 +32,11 @@
     font-family: var(--font-montserrat);
   }
 
+  nav a:hover,
+  nav button:hover {
+    @apply text-green-500;
+  }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
