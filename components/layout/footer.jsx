@@ -1,14 +1,14 @@
 export default function Footer() {
   return (
     <footer className="flex justify-between w-full lg:max-w-6xl mx-auto px-3 py-15 flex-wrap">
-      <div>
+      <div className="w-full md:w-auto">
         <p className="text-white-h">© 2025 Prisko Jr Mod.</p>
         <div className="flex mt-10 [&_button]:py-2 [&_button]:px-3 [&_button]:rounded-xl">
           <button className="bg-black-f">Indonesia</button>
           <button>English</button>
         </div>
       </div>
-      <div className="flex text-white-h mt-25 md:mt-0">
+      <div className="flex text-white-h mt-20 md:mt-0">
         <ul className="me-10">
           <li><a href="">About Us</a></li>
           <li className="mt-10"><a href="">Privacy Policy</a></li>
