@@ -1,3 +1,4 @@
+import Accordion from '@/components/home/accordion';
 import CardHomePin from '@/components/home/card-home-pin';
 import CardHomeSlide from '@/components/home/card-home-slide';
 import CardTestimonial from '@/components/home/card-testimonial';
@@ -82,8 +83,27 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-
+      <section className="bg-black-e -mt-1 z-30 relative py-20 mb-40">
+        <div className="w-full md:max-w-xl mx-auto px-3">
+          <h1 className="text-center text-[40px] font-bold">
+            Frequently Ask <span className="text-green-500">Questions</span>
+          </h1>
+          <p className="text-center text-white-f text-xl font-medium mt-2">This is most frequently asked questions, you can see more on the <a href="" className="text-green-500">FAQ page</a>.</p>
+        </div>
+        <div className="w-full md:max-w-3xl mx-auto px-3 mt-15 space-y-5">
+          <Accordion
+            title="Apa saja manfaat olahraga secara teratur bagi kesehatan tubuh?"
+          />
+          <Accordion
+            title="What key features make this product stand out from its competitors?"
+          />
+          <Accordion
+            title="What makes it unique compared to others?"
+          />
+          <Accordion
+            title="How easy is it to use for someone with little to no technical experience?"
+          />
+        </div>
       </section>
     </>
   );
