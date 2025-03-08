@@ -1,6 +1,7 @@
 import { Montserrat } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.variable}>
         <Header />
         <main className="overflow-hidden min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );

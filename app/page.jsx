@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-black-e -mt-1 z-30 relative py-20 mb-40">
+      <section className="bg-black-e -mt-1 z-30 relative py-20">
         <div className="w-full md:max-w-xl mx-auto px-3">
           <h1 className="text-center text-[40px] font-bold">
             Frequently Ask <span className="text-green-500">Questions</span>
