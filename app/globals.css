@@ -37,6 +37,8 @@
   nav a:hover,
   nav button:hover {
     @apply text-green-500;
+    @apply transition-colors;
+    @apply duration-100;
   }
 
   button:not(:disabled),
