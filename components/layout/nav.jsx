@@ -1,10 +1,17 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function Nav() {
   const [showServices, setShowServices] = useState(false);
   const [showNav, setShowNav] = useState(false);
+  const currentPathname = usePathname();
+
+  function getActive(pathname, activeClass) {
+    if (currentPathname === pathname) return activeClass;
+  }
 
   return (
     <>
@@ -21,7 +28,7 @@ export default function Nav() {
       </button>
       <nav className={`[&_a]:inline-block [&_svg]:inline-block font-bold items-center ${showNav ? 'block absolute right-0 bg-[#141414] h-screen pt-15 p-6':'hidden'} md:h-auto md:pt-0 md:p-0 md:flex md:static md:bg-transparent`}>
         <ul className="[&>li]:py-2 mb-10 md:mb-0 [&>li]:md:px-4 [&>li]:lg:px-6 md:me-10 lg:me-20 [&>li]:md:inline-block">
-          <li><a href="#">Products</a></li>
+          <li><Link href="/products" className={getActive('/products', 'text-green-500')}>Products</Link></li>
           <li className="relative">
             <button onClick={() => setShowServices(prev => !prev)} type="button">
               <span className="me-1">Services</span>

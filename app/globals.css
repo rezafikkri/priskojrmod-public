@@ -15,6 +15,8 @@
   --color-white-f: #B6B8B2;
   --color-white-g: #959090;
   --color-white-h: #ACABAB;
+  --color-white-a1: #7C7C7C;
+  --color-white-a2: #B6B6B6;
   --color-stroke: #2D2E2D;
   --color-black-m: #0E0F0E;
   --color-black-s: #1E1E1E;
@@ -61,6 +63,14 @@
     background-image: url('/borders/4.svg');
     height: 540px;
     width: 2px;
+  }
+
+  select {
+    @apply appearance-none;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgd2lkdGg9IjI0IiAgaGVpZ2h0PSIyNCIgIHZpZXdCb3g9IjAgMCAyNCAyNCIgIGZpbGw9IiNCNkI2QjYiICBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItZmlsbGVkIGljb24tdGFibGVyLWNhcmV0LWRvd24iPjxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xOCA5Yy44NTIgMCAxLjI5NyAuOTg2IC43ODMgMS42MjNsLS4wNzYgLjA4NGwtNiA2YTEgMSAwIDAgMSAtMS4zMiAuMDgzbC0uMDk0IC0uMDgzbC02IC02bC0uMDgzIC0uMDk0bC0uMDU0IC0uMDc3bC0uMDU0IC0uMDk2bC0uMDE3IC0uMDM2bC0uMDI3IC0uMDY3bC0uMDMyIC0uMTA4bC0uMDEgLS4wNTNsLS4wMSAtLjA2bC0uMDA0IC0uMDU3di0uMTE4bC4wMDUgLS4wNThsLjAwOSAtLjA2bC4wMSAtLjA1MmwuMDMyIC0uMTA4bC4wMjcgLS4wNjdsLjA3IC0uMTMybC4wNjUgLS4wOWwuMDczIC0uMDgxbC4wOTQgLS4wODNsLjA3NyAtLjA1NGwuMDk2IC0uMDU0bC4wMzYgLS4wMTdsLjA2NyAtLjAyN2wuMTA4IC0uMDMybC4wNTMgLS4wMWwuMDYgLS4wMWwuMDU3IC0uMDA0bDEyLjA1OSAtLjAwMnoiIC8+PC9zdmc+");
+    background-size: 16px 16px;
+    background-position: right center;
+    background-repeat: no-repeat;
   }
 }
 
