@@ -57,6 +57,7 @@ export default function Home() {
             img="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/image_4.jpg"
             name="Sider Manager - Apps for manage your Addon"
             price="IDR 80.000"
+            discount="40%"
           />
         </div>
       </section>

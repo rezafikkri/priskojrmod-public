@@ -2,6 +2,7 @@ export default function CardHomePin({
   img,
   name,
   price,
+  discount,
 }) {
   return (
     <section className="basis-2xs relative z-9 [&_img]:w-full bg-black-s rounded-xl p-1 hover:scale-102 transition-transform duration-200 ease-out">
@@ -18,6 +19,12 @@ export default function CardHomePin({
         <div className="py-3 px-2.5">
           <h3 className="font-semibold leading-5 mb-4 text-white-c">{name}</h3>
           <h2 className="text-xl font-extrabold text-white-a">{price}</h2>
+          {discount &&
+            <div className="flex items-center">
+              <h3 className="text-l-black font-semibold me-2 line-through">IDR 350.000</h3>
+              <span className="font-bold text-xs px-1 py-0.5 bg-red-600 rounded-md">{discount}</span>
+            </div>
+          }
         </div>
       </a>
     </section>
