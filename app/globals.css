@@ -26,6 +26,7 @@
   --color-white-p: #C1C1C1;
   --color-white-q: #9C9D98;
   --color-white-r: #BCBCBC;
+  --color-white-s: #9A9A9A;
   --color-stroke: #2D2E2D;
   --color-stroke-a: #383A36;
   --color-stroke-b: #252624;
@@ -88,6 +89,10 @@
     background-image: url('/borders/7.svg');
     height: 2px;
   }
+  .hr-8 {
+    background-image: url('/borders/8.svg');
+    height: 2px;
+  }
 
   select {
     @apply appearance-none;
@@ -119,13 +124,15 @@
 
   .swiper-button-next,
   .swiper-button-prev,
-  .product-detail-btn button {
+  .product-detail-btn button,
+  .cart button {
     transition-duration: .2s;
     transition-property: scale;
     transition-timing-function: cubic-bezier(0,0,.2,1);
   }
 
-  .product-detail-btn button {
+  .product-detail-btn button,
+  .cart button {
     transition-property: all;
   }
 
