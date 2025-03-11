@@ -10,7 +10,7 @@ export default function OrderItem({
   return (
     <article className="flex p-4 border-x-2 last:border-b-2 border-dashed border-stroke -mt-0.5 last:rounded-b-xl relative group flex-wrap">
       <div className="flex max-sm:w-full">
-        <div className="flex items-center text-white-na me-3 self-start">
+        <div className="flex items-center text-white-na me-4 self-start">
           <label className={`relative flex items-center`}>
             <input
               name="select-one"
@@ -27,7 +27,7 @@ export default function OrderItem({
           className="rounded-lg self-start max-sm:flex-1"
         />
       </div>
-      <div className="flex max-sm:ms-7 ms-3 sm:space-x-3 flex-1 max-md:flex-col max-sm:mt-5">
+      <div className="flex max-sm:ms-8 ms-4 sm:space-x-4 flex-1 max-md:flex-col max-sm:mt-5">
         <div className="flex-1 flex justify-between flex-col">
           <div>
             <h3 className="font-semibold text-white-j">{name}</h3>

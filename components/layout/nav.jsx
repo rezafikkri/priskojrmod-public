@@ -13,6 +13,8 @@ export default function Nav() {
     if (currentPathname === pathname) return activeClass;
   }
 
+  if (currentPathname === '/checkout') return null;
+
   return (
     <>
       <button
