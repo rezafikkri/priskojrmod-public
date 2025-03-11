@@ -10,7 +10,7 @@ export default function CardProduct({
   discount,
 }) {
   return (
-    <section className="border-2 border-dashed border-stroke -mb-0.5 -me-0.5 first:rounded-ss-2xl last:rounded-ee-2xl relative has-[:hover]:border-green-500/50 relative has-[:hover]:z-2 transition-colors duration-200">
+    <article className="border-2 border-dashed border-stroke -mb-0.5 -me-0.5 first:rounded-ss-2xl last:rounded-ee-2xl relative has-[:hover]:border-green-500/50 relative has-[:hover]:z-2 transition-colors duration-200">
       <Link href="/products/1234" className="p-[15px] inline-block h-full">
         {pin &&
           <div className="absolute w-[14px] h-[13px] bg-green-300 flex justify-center items-center rounded-sm text-black-m right-3 top-3">
@@ -36,6 +36,6 @@ export default function CardProduct({
           }
         </div>
       </Link>
-    </section>
+    </article>
   );
 }

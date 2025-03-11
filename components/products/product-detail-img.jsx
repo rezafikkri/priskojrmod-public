@@ -37,16 +37,24 @@ export default function ProductDetailImg() {
               </div>
             </div>
             <div className="swiper-slide">
-              <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_1.jpg" />
+              <div className="swiper-zoom-container">
+                <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_1.jpg" />
+              </div>
             </div>
             <div className="swiper-slide">
-              <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_2.jpg" />
+              <div className="swiper-zoom-container">
+                <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_2.jpg" />
+              </div>
             </div>
             <div className="swiper-slide">
-              <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_3.jpg" />
+              <div className="swiper-zoom-container">
+                <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_3.jpg" />
+              </div>
             </div>
             <div className="swiper-slide">
-              <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_4.jpg" />
+              <div className="swiper-zoom-container">
+                <img src="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/detail_4.jpg" />
+              </div>
             </div>
           </div>
         </div>

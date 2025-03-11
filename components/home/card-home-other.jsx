@@ -5,7 +5,7 @@ export default function CardHomeOther({
   discount,
 }) {
   return (
-    <section className="swiper-slide basis-2xs [&_img]:w-full rounded-xl rounded-b-none border-t-2 border-e-2 border-dashed border-stroke has-[:hover]:border-green-500/50 transition-all! duration-200">
+    <article className="swiper-slide basis-2xs [&_img]:w-full rounded-xl rounded-b-none border-t-2 border-e-2 border-dashed border-stroke has-[:hover]:border-green-500/50 transition-all! duration-200">
       <a href="" className="ps-1 pe-3 pt-3 inline-block">
         <img
           src={img}
@@ -23,6 +23,6 @@ export default function CardHomeOther({
           }
         </div>
       </a>
-    </section>
+    </article>
   );
 }

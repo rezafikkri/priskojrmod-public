@@ -13,7 +13,7 @@ export default function ProductDetail() {
           <li className="C1C1C1">Premier League Scoreboard 2024/25</li>
         </ul>
       </nav>
-      <section className="w-full lg:max-w-6xl mx-auto px-3 flex mt-7 flex-wrap">
+      <article className="w-full lg:max-w-6xl mx-auto px-3 flex mt-7 flex-wrap">
         <ProductDetailImg />
         <div className="flex-1 md:ps-6.5 relative mt-13 md:mt-0">
           <span className="hr-6 hidden absolute bottom-0 left-0 md:inline-block z-5" />
@@ -47,7 +47,7 @@ export default function ProductDetail() {
             <ShareButton />
           </div>
         </div>
-      </section>
+      </article>
       <section className="relative w-full lg:max-w-6xl mx-auto px-3 mt-12 md:mt-8 mb-25 md:mb-40 flex flex-col">
         <span className="hr-7 absolute top-0 right-3 left-3 inline-block z-5" />
         <ProductDesc />
