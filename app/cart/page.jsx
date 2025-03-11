@@ -6,7 +6,7 @@ export default function Cart() {
     <section className="w-full lg:max-w-6xl mx-auto px-3 mt-15 mb-20 cart">
       <h1 className="font-bold text-[32px] text-white-j">Cart</h1>
       <div className="flex mt-10 space-x-5 lg:space-x-7 flex-wrap">
-        <section className="max-[953]:w-full max-[953]:me-0 w-2/3">
+        <section className="max-md:w-full max-md:me-0 w-2/3">
           <h2 className="font-medium text-white-k text-xl">Order List</h2>
           <div className="flex justify-between items-center w-full mt-4 border-2 border-dashed border-stroke py-3.5 px-4 text-sm font-semibold rounded-t-xl">
             <div className="flex items-center text-white-na">
@@ -47,7 +47,7 @@ export default function Cart() {
             />
           </div>
         </section>
-        <section className="flex-1 transaction-summary sticky top-23 h-fit max-[953]:mt-8">
+        <section className="flex-1 transaction-summary sticky top-23 h-fit max-md:mt-7.5">
           <h2 className="font-medium text-white-k text-xl">Transaction Summary</h2>
           <div className="border-2 border-dashed mt-4 border-stroke rounded-xl p-4">
             <h4 className="font-medium text-white-j">Subtotal</h4>
