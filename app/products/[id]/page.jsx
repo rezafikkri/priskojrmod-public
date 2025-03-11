@@ -6,7 +6,7 @@ import ShareButton from '@/components/products/share-button';
 export default function ProductDetail() {
   return (
     <>
-      <nav className="[&_li]:not-first:flex [&_li]:items-center w-full lg:max-w-6xl mx-auto px-3 breadcrumb mt-17 md:mt-20 [&_a]:text-green-600 [&_a]:hover:text-green-500">
+      <nav className="[&_li]:not-first:flex [&_li]:items-center w-full lg:max-w-6xl mx-auto px-3 breadcrumb mt-15 [&_a]:text-green-600 [&_a]:hover:text-green-500">
         <ul className="flex last:text-white-p flex-wrap">
           <li><a href="">Products</a></li>
           <li><a href="">Addon</a></li>

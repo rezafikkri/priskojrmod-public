@@ -2,6 +2,8 @@ import Link from "next/link";
 
 export default function CardProduct({
   img,
+  imgWidth,
+  imgHeight,
   name,
   price,
   pin,
@@ -19,7 +21,9 @@ export default function CardProduct({
         <img
           src={img}
           alt="Product 4"
-          className="rounded-xl"
+          className="rounded-xl w-full"
+          width={imgWidth ? imgWidth : 1920}
+          height={imgHeight ? imgHeight : 1080}
         />
         <div className="mt-3">
           <h4 className="font-semibold leading-5 mb-3 text-white-c">{name}</h4>

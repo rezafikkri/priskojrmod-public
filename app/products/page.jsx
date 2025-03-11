@@ -3,7 +3,7 @@ import CardProduct from "@/components/products/card-product";
 export default function Products() {
   return (
     <>
-      <section className="w-full lg:max-w-6xl mx-auto mt-17 md:mt-20 px-3">
+      <section className="w-full lg:max-w-6xl mx-auto mt-15 px-3">
         <h1 className="text-4xl font-semibold">Products</h1>
       </section>
       <section className="w-full lg:max-w-6xl mx-auto mt-7 px-3">
@@ -12,6 +12,8 @@ export default function Products() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 mb-2 me-0.5">
           <CardProduct
             img="https://res.cloudinary.com/priskojrmod/image/upload/q_auto/image_4.jpg"
+            imgWidth={838}
+            imgHeight={540}
             name="Sider Manager - Apps for manage your Addon"
             price="IDR 80.000"
             pin={true}
