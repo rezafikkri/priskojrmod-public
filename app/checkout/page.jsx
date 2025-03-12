@@ -3,7 +3,7 @@ import OrderItem from '@/components/checkout/order-item';
 
 export default function Checkout() {
   return (
-    <section className="w-full lg:max-w-6xl mx-auto px-3 mt-15 mb-20 cart">
+    <section className="w-full lg:max-w-6xl mx-auto px-3 mt-15 mb-20 checkout">
       <h1 className="font-bold text-[32px] text-white-j">Checkout</h1>
       <div className="flex mt-10 md:space-x-5 lg:space-x-7 flex-wrap">
         <div className="w-full md:w-3/5 lg:w-2/3">

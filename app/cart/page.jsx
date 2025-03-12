@@ -52,7 +52,7 @@ export default function Cart() {
           <div className="border-2 border-dashed mt-4 border-stroke rounded-xl p-4">
             <h4 className="font-medium text-white-j">Subtotal</h4>
             <h3 className="font-bold text-xl mt-1">IDR 705.000</h3>
-            <Link href="/checkout" className="block text-center mt-11.5 w-full bg-green-600 font-bold p-3 rounded-lg hover:bg-green-500 active:scale-[0.96]">Checkout Now</Link>
+            <Link href="/checkout" className="btn block text-center mt-11.5 w-full bg-green-600 font-bold p-3 rounded-lg hover:bg-green-500 active:scale-[0.96]">Checkout Now</Link>
             <div className="flex mt-4 text-white-p">
               <svg xmlns="http://www.w3.org/2000/svg" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="currentColor"  strokeWidth={1.5}  strokeLinecap="round"  strokeLinejoin="round"  className="icon me-1"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
               <small className="flex-1">Subtotal does not include tax.</small>

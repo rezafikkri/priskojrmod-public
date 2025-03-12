@@ -145,16 +145,18 @@
   .swiper-button-next,
   .swiper-button-prev,
   .product-detail-btn button,
-  .cart button,
-  .customer-details button {
+  .cart a.btn,
+  .customer-details button,
+  .checkout button {
     transition-duration: .2s;
     transition-property: scale;
     transition-timing-function: cubic-bezier(0,0,.2,1);
   }
 
   .product-detail-btn button,
-  .cart button,
-  .customer-details button {
+  .cart a.btn,
+  .customer-details button,
+  .checkout button {
     transition-property: all;
   }
 
