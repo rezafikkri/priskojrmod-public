@@ -46,7 +46,7 @@ export default function Checkout() {
             </div>
           </section>
         </div>
-        <section className="flex-1 transaction-summary sticky top-23 h-fit max-md:mt-7.5">
+        <section className="flex-1 sticky top-23 h-fit max-md:mt-7.5">
           <h2 className="font-medium text-white-k text-xl">Transaction Summary</h2>
           <div className="border-2 border-dashed mt-4 border-stroke rounded-xl p-4">
             <div className="relative pb-4">
@@ -68,7 +68,7 @@ export default function Checkout() {
               <svg xmlns="http://www.w3.org/2000/svg" width={19} height={19}  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth={2}  strokeLinecap="round"  strokeLinejoin="round"  className="icon me-1.5"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
               <span>Buy Now</span>
             </button>
-            <div className="flex mt-4 text-white-p text-sm">
+            <div className="flex mt-4 text-white-p">
               <svg xmlns="http://www.w3.org/2000/svg" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="currentColor"  strokeWidth={1.5}  strokeLinecap="round"  strokeLinejoin="round"  className="icon me-1"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
               <small className="flex-1 text-sm">By continuing payment you agree with our <a href="" className="text-green-500">Terms & Conditions</a> and <a href="" className="text-green-500">Privacy Policy</a>, and you will be directed to WhatsApp to complete payment, therefor the subtotal above does not include tax.</small>
             </div>
@@ -76,6 +76,5 @@ export default function Checkout() {
         </section>
       </div>
     </section>
-
   );
 }

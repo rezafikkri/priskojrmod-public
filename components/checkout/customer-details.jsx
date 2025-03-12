@@ -52,7 +52,7 @@ export default function CustomerDetails({
 
             <label htmlFor="phone-code" className="mt-6">Phone Number</label>
             <div className="flex">
-              <select name="phone-code" id="phone-code" className="pe-10 border border-stroke rounded-s-lg p-3 -me-[0.1px] focus:outline-0 focus:border-green-500/50 focus:z-3 bg-black-m">
+              <select name="phone-code" id="phone-code" className="pe-10 border border-stroke rounded-s-lg p-3 -me-[1px] focus:outline-0 focus:border-green-500/50 focus:z-3 bg-black-m">
                 <option value="">+62 (Indonesia)</option>
                 <option value="">+62 (Indonesia)</option>
               </select>

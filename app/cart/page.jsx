@@ -47,7 +47,7 @@ export default function Cart() {
             />
           </div>
         </section>
-        <section className="flex-1 transaction-summary sticky top-23 h-fit max-md:mt-7.5">
+        <section className="flex-1 sticky top-23 h-fit max-md:mt-7.5">
           <h2 className="font-medium text-white-k text-xl">Transaction Summary</h2>
           <div className="border-2 border-dashed mt-4 border-stroke rounded-xl p-4">
             <h4 className="font-medium text-white-j">Subtotal</h4>
