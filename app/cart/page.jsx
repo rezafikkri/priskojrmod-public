@@ -10,14 +10,14 @@ export default function Cart() {
           <h2 className="font-medium text-white-k text-xl">Order List</h2>
           <div className="flex justify-between items-center w-full mt-4 border-2 border-dashed border-stroke py-3.5 px-4 text-sm font-semibold rounded-t-xl">
             <div className="flex items-center text-white-na">
-              <label className={`relative flex items-center`}>
+              <label className={`flex items-center w-5 h-5 relative checkbox`}>
                 <input
                   name="select-all"
                   id="select-all"
                   type="checkbox"
-                  className={`peer h-4 w-4 appearance-none rounded-sm border checked:border-8 border-stroke-a checked:!border-green-600 transition-all duration-50`}
+                  className={`peer w-full h-full appearance-none rounded-sm border border-stroke-a checked:border-green-600 checked:bg-green-600 transition-colors duration-50`}
                 />
-                <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth={4}  strokeLinecap="round"  strokeLinejoin="round"  className="icon absolute opacity-0 peer-checked:opacity-100 transition-opacity duration-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width={14} height={14} viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth={4}  strokeLinecap="round"  strokeLinejoin="round"  className="icon absolute opacity-0 peer-checked:opacity-100 transition-opacity duration-70 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
               </label>
               <label htmlFor="select-all" className="ms-3">
                 <span className="text-white-k me-1">Select all</span>

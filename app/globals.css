@@ -125,6 +125,11 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+
+  label.checkbox:hover,
+  input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
 }
 
 @layer components {

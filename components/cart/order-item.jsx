@@ -10,16 +10,15 @@ export default function OrderItem({
   return (
     <article className="flex p-4 border-x-2 last:border-b-2 border-dashed border-stroke -mt-0.5 last:rounded-b-xl relative group flex-wrap">
       <div className="flex max-sm:w-full">
-        <div className="flex items-center text-white-na me-4 self-start">
-          <label className={`relative flex items-center`}>
-            <input
-              name="select-one"
-              type="checkbox"
-              className={`peer h-4 w-4 appearance-none rounded-sm border checked:border-8 border-stroke-a checked:!border-green-600 transition-all duration-50`}
-            />
-            <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth={4}  strokeLinecap="round"  strokeLinejoin="round"  className="icon absolute opacity-0 peer-checked:opacity-100 transition-opacity duration-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
-          </label>
-        </div>         
+        <label className={`flex items-center w-5 h-5 relative checkbox me-4`}>
+          <input
+            name="select-all"
+            id="select-all"
+            type="checkbox"
+            className={`peer w-full h-full appearance-none rounded-sm border border-stroke-a checked:border-green-600 checked:bg-green-600 transition-colors duration-50`}
+          />
+          <svg xmlns="http://www.w3.org/2000/svg" width={14} height={14} viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth={4}  strokeLinecap="round"  strokeLinejoin="round"  className="icon absolute opacity-0 peer-checked:opacity-100 transition-opacity duration-70 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+        </label>
         <img
           src={img}
           alt="Product 5"
