@@ -59,10 +59,10 @@ export default function ProductDetailImg() {
           </div>
         </div>
         <div className="[&_button]:absolute [&_button]:top-1/2 [&_button]:z-2 [&_button]:-mt-3.5 [&_button]:bg-black-g [&_button]:flex [&_button]:p-1 [&_button]:rounded-lg [&_button]:text-white-i">
-          <button className="swiper-button-next -right-3.5 active:scale-[0.94]">
+          <button className="swiper-button-next max-md:-right-3 md:-right-3.5 active:scale-[0.94]">
             <svg  xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor"  strokeWidth={2}  strokeLinecap="round"  strokeLinejoin="round"  className="icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
           </button>
-          <button className="swiper-button-prev -left-3.5 active:scale-[0.94]">
+          <button className="swiper-button-prev max-lg:-left-3 lg:-left-3.5 active:scale-[0.94]">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
           </button>
         </div>
