@@ -5,8 +5,8 @@ export default function CardHomeOther({
   discount,
 }) {
   return (
-    <article className="swiper-slide basis-2xs [&_img]:w-full rounded-xl rounded-b-none border-t-2 border-e-2 border-dashed border-stroke has-[:hover]:border-green-500/50 transition-all! duration-200">
-      <a href="" className="ps-1 pe-3 pt-3 inline-block">
+    <article className="swiper-slide !basis-2xs">
+      <a href="" className="ps-1 pe-3 pt-3 inline-block rounded-xl rounded-b-none border-t-2 border-e-2 border-dashed border-stroke hover:border-green-500/50 [&_img]:w-full transition-colors duration-200">
         <img
           src={img}
           alt="product 5"

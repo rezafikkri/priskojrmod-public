@@ -9,7 +9,7 @@ import CardHomeOther from './card-home-other';
 export default function CardHomeSlide() {
   useEffect(() => {
     new Swiper(".mySwiper", {
-      slidesPerView: "auto",
+      slidesPerView: 'auto',
       spaceBetween: 15,
     });
   }, []);

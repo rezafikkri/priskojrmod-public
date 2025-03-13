@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <section className="relative pt-25">
         <span className="hr-1 absolute top-2 right-3/5 inline-block z-5" />
-        <span className="hr-2 absolute top-20 right-3 inline-block z-5" />
+        <span className="hr-2 absolute top-20 max-lg:w-full lg:right-3 inline-block z-5" />
 
         <div className="w-full lg:max-w-6xl mx-auto px-3">
           <h1 className="text-5xl font-extrabold text-white-na text-center z-88 relative">Make Your Dream Come True</h1>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <span className="hr-3 absolute max-[769px]:top-73 top-63 left-2 inline-block z-5" />
+        <span className="hr-3 absolute max-[769px]:top-73 top-63 max-lg:w-full lg:left-2 inline-block z-5" />
         <span className="hr-4 absolute max-[769px]:top-73 top-63 right-3/5 inline-block z-5" />
         <span className="hr-4 absolute max-[769px]:top-73 top-63 right-2/5 inline-block z-5" />
         
